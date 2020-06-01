@@ -10,18 +10,18 @@ Linux + Apache + MariaDB + Php or perl or python
 http://isoredirect.centos.org/centos/8/isos/x86_64/
 2)	vmware에 centos를 설치
 
-설치 시 GUI 환경 동시에 설치하여 xwindow 환경을 같이 설치하였습니다.
+  설치 시 GUI 환경 동시에 설치하여 xwindow 환경을 같이 설치하였습니다.
 
 ### 2.	Apache 설치
 
 1)	$ Su 명령어를 이용하여 root 계정으로 접속
 2)	$ yum 명령어를 이용하여 apache 설치
 
-$ yum install httpd *
+  $ yum install httpd *
 
 3)	설치 완료 후 httpd 버전 확인
 
-$ httpd -v
+  $ httpd -v
 
 4)	아파치 실행
 
