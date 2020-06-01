@@ -97,10 +97,10 @@ phpinfo();
 >$ podman ps -a
 
 >CONTAINER ID  IMAGE                           COMMAND           CREATED       STATUS                   PORTS  NAMES
->54ae076dafdf  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont4
->144f2ef716e4  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont3
->484d65626cd8  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont2
->d3cc517fe534  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont1
+>>54ae076dafdf  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont4
+>>144f2ef716e4  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont3
+>>484d65626cd8  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont2
+>>d3cc517fe534  docker.io/library/httpd:latest  httpd-foreground  24 hours ago  Exited (0) 24 hours ago         cont1
 
 5)	컨테이너 중지, 시작
 >중지 : $ podman stop cont1
