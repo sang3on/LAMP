@@ -14,17 +14,14 @@ Linux + Apache + MariaDB + Php or perl or python
 ### 2.	Apache 설치
 
 1)	$ Su 명령어를 이용하여 root 계정으로 접속
+
 2)	$ yum 명령어를 이용하여 apache 설치
-
-$ yum install httpd *
-
+>$ yum install httpd *
 3)	설치 완료 후 httpd 버전 확인
-
-httpd -v
+>httpd -v
 
 4)	아파치 실행
-
-$ service httpd start
+>$ service httpd start
 
 5)	포트 확인
 
